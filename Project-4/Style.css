@@ -1,0 +1,45 @@
+body{padding: 0;
+    margin:0; } 
+h1{background-color:
+     rgb(178, 230, 178);
+    text-align: center;
+    color: ivory;
+    padding:10px;
+}
+.container{width:1000px;
+    margin:auto;}
+.logo{width: 250px;
+    margin-top: 
+    -15px;float:left;}
+.logo img{width:100%;}
+.header-area{background-color: white;}
+.mainmenu{background-color: rgb(236, 83, 83);
+     min-height:5.2em;}
+.mainmenu ul{padding:0;
+    margin:0;
+    list-style: none;}
+.mainmenu ul li{float:left;
+    margin-left: 
+    20px;padding: 
+    20px;position:relative;}
+.mainmenu ul li  a{text-decoration: none;
+    display: block;
+    padding:20px;}
+.mainmenu ul li a:hover{background-color: skyblue;}
+
+.mainmenu ul li ul{position:absolute;
+     left: -999999px;
+     background-color:rgb(236, 108, 108);}
+.mainmenu ul li:hover ul{left:0px;}
+.mainmenu ul li ul li{float:none;
+    padding:10px;
+    border-bottom: 1px solid red;}
+.mainmenu ul li ul li a{display:block;
+    padding:5px;}
+.mainmenu ul li ul li:nth-child(1) {}
+.mainmenu ul li ul li:nth-child(2) {}
+.mainmenu ul li ul li:nth-child(3) {}
+.mainmenu ul li ul li:nth-child(4) { border-bottom:none;}
+.slider-area{width:1360px;}
+.slider-area img {width:100%;}
+.content{line-height: 0%;}
